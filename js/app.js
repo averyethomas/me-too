@@ -1,8 +1,6 @@
-var app = angular.module('angularApp', ['ngResource']);
+var app = angular.module('angularApp', ['']);
 
-app.controller('tweetsCtrl', ['$scope', '$resource', function ($scope, $resource) {
+app.controller('tweetsCtrl', ['$scope', function ($scope) {
 
-    var consumeKey = 'ioMjOQKdQT7L7kISvoxgqJRvy';
-    var consumeSecret = 'rOxoxuJUuokN9V5PVQU23ZZMFnHAEsA0JcPDw6kiU2RvDpI3eR';
 
 }]);
